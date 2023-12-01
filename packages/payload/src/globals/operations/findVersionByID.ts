@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 /* eslint-disable no-underscore-dangle */
 import type { FindGlobalVersionsArgs } from '../../database/types'
 import type { PayloadRequest } from '../../express/types'

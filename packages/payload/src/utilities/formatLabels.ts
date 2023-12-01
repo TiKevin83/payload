@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import pluralize, { isPlural, singular } from 'pluralize'
 
 const capitalizeFirstLetter = (string: string): string =>

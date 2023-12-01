@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 export const getSupportedDateLocale = (locale = 'enUS'): string => {
   const formattedLocales = {
     en: 'enUS',

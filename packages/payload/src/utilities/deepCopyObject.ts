@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 export const deepCopyObject = (inObject) => {
   if (inObject instanceof Date) return inObject
 

@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import queryString from 'qs'
 import React, { useCallback, useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'

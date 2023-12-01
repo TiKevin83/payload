@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import React, { Fragment } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link, useLocation, useRouteMatch } from 'react-router-dom'

@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 /* eslint-disable @typescript-eslint/no-floating-promises */
 import fs from 'fs'
 import { compile } from 'json-schema-to-typescript'

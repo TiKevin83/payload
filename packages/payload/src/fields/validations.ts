@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { RichTextAdapter } from '../exports/types'
 import type {
   ArrayField,

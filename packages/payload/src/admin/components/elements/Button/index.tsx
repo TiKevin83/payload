@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import React, { Fragment, forwardRef, isValidElement } from 'react'
 import { Link } from 'react-router-dom'
 

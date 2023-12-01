@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import md5 from 'md5'
 import qs from 'qs'
 import React from 'react'

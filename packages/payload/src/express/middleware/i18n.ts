@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Handler } from 'express'
 import type { InitOptions } from 'i18next'
 

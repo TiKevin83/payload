@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import { useCallback, useRef } from 'react'
 
 /**

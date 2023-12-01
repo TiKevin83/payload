@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 /* eslint-disable no-use-before-define */
 import type { EditorProps } from '@monaco-editor/react'
 import type { TFunction } from 'i18next'

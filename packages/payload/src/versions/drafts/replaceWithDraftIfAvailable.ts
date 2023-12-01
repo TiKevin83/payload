@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { SanitizedCollectionConfig, TypeWithID } from '../../collections/config/types'
 import type { AccessResult } from '../../config/types'
 import type { FindGlobalVersionsArgs, FindVersionsArgs } from '../../database/types'

@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { ElementType } from 'react'
 
 import React from 'react'

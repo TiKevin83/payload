@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import { lazy } from 'react'
 import React from 'react'
 import { Route, Switch, useRouteMatch } from 'react-router-dom'

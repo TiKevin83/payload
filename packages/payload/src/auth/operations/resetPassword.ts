@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Response } from 'express'
 
 import jwt from 'jsonwebtoken'

@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import React, { useCallback, useEffect, useState } from 'react'
 
 import type { Option, OptionObject } from '../../../../../fields/config/types'

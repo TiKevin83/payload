@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Request } from 'express'
 
 import { APIError } from '../errors'

@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import merge from 'deepmerge'
 
 export const combineMerge = (target, source, options) => {

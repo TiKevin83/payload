@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import React from 'react'
 
 import type { TabsField } from '../../../../../../../fields/config/types'

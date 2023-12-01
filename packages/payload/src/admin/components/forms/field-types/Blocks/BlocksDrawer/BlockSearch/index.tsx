@@ -10,7 +10,7 @@ const BlockSearch: React.FC<{ setSearchTerm: (term: string) => void }> = (props)
   const { setSearchTerm } = props
   const { t } = useTranslation('fields')
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(e.target.value)
   }
 

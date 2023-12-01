@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { ObjMap } from 'graphql/jsutils/ObjMap'
 import type { GraphQLFieldResolver } from 'graphql/type/definition'
 import type { GraphQLFieldConfig } from 'graphql/type/definition'

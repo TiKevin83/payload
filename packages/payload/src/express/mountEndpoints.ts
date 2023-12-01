@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Express, Router } from 'express'
 
 import type { Endpoint } from '../config/types'

@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Dispatch } from 'react'
 
 import { createContext, useContext } from 'react'

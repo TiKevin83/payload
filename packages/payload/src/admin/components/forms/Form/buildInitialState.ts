@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 const buildInitialState = (data) => {
   if (data) {
     return Object.entries(data).reduce(

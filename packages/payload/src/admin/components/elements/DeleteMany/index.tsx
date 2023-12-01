@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import { Modal, useModal } from '@faceless-ui/modal'
 import React, { useCallback, useState } from 'react'
 import { useTranslation } from 'react-i18next'

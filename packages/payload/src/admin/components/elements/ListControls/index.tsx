@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import { useWindowInfo } from '@faceless-ui/window-info'
 import React, { useState } from 'react'
 import AnimateHeight from 'react-animate-height'

@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import React, { useEffect, useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { v4 as uuidv4 } from 'uuid'

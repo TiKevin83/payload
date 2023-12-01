@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import { unflatten } from 'flatley'
 
 import type { Fields } from './types'

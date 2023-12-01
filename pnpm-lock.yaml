@@ -216,6 +216,9 @@ importers:
       typescript:
         specifier: 5.2.2
         version: 5.2.2
+      typescript-strict-plugin:
+        specifier: ^2.2.1
+        version: 2.2.1
       uuid:
         specifier: ^9.0.0
         version: 9.0.0
@@ -9923,6 +9926,21 @@ packages:
       strip-eof: 1.0.0
     dev: true
 
+  /execa@4.1.0:
+    resolution: {integrity: sha512-j5W0//W7f8UxAn8hXVnwG8tLwdiUy4FJLcSupCg6maBYZDpyBvTApK7KyuI4bKj8KOh1r2YH+6ucuYtJv1bTZA==}
+    engines: {node: '>=10'}
+    dependencies:
+      cross-spawn: 7.0.3
+      get-stream: 5.2.0
+      human-signals: 1.1.1
+      is-stream: 2.0.1
+      merge-stream: 2.0.0
+      npm-run-path: 4.0.1
+      onetime: 5.1.2
+      signal-exit: 3.0.7
+      strip-final-newline: 2.0.0
+    dev: true
+
   /execa@5.1.1:
     resolution: {integrity: sha512-8uSpZZocAZRBAPIEINJj3Lo9HyGitllczc27Eh5YYojjMFMn8yHMDMaUHE2Jqfq05D/wucwI4JGURyXt1vchyg==}
     engines: {node: '>=10'}
@@ -11220,6 +11238,11 @@ packages:
       debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /human-signals@1.1.1:
+    resolution: {integrity: sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==}
+    engines: {node: '>=8.12.0'}
     dev: true
 
   /human-signals@2.1.0:
@@ -17767,6 +17790,16 @@ packages:
 
   /typedarray@0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
+    dev: true
+
+  /typescript-strict-plugin@2.2.1:
+    resolution: {integrity: sha512-qVRE7yyhaAaKxnIr3l7nrnNLdEekL0vdYna1+2ha6K9YBngCeJLQHpzNz5dALi2OspWKo/Pd/QmbzJ8Jmh2NgA==}
+    hasBin: true
+    dependencies:
+      chalk: 3.0.0
+      execa: 4.1.0
+      ora: 5.4.1
+      yargs: 16.2.0
     dev: true
 
   /typescript@5.2.2:

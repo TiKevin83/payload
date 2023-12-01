@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 /* eslint-disable no-param-reassign */
 import type { SanitizedCollectionConfig } from '../../../collections/config/types'
 import type { PayloadRequest, RequestContext } from '../../../express/types'

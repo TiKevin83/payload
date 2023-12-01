@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { CollectionPermission, GlobalPermission } from '../auth/types'
 import type { SanitizedCollectionConfig, TypeWithID } from '../collections/config/types'
 import type { Access } from '../config/types'

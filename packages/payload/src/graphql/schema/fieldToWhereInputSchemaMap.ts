@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import { GraphQLEnumType, GraphQLInputObjectType, GraphQLString } from 'graphql'
 import GraphQLJSON from 'graphql-type-json'
 

@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 export function deepMerge(obj1, obj2) {
   const output = { ...obj1 }
 

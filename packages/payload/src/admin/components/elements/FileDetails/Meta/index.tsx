@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import React, { useState } from 'react'
 
 import type { Props } from './types'

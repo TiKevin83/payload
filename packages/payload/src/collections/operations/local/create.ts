@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { UploadedFile } from 'express-fileupload'
 import type { MarkOptional } from 'ts-essentials'
 

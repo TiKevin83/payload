@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { CollisionDetection } from '@dnd-kit/core'
 
 import { rectIntersection } from '@dnd-kit/core'

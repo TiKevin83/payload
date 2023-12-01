@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { CollectionPermission } from '../../auth'
 import type { PayloadRequest } from '../../express/types'
 import type { AllOperations } from '../../types'

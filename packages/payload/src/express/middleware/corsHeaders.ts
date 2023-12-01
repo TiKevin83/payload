@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { NextFunction, Request, Response } from 'express'
 
 import type { SanitizedConfig } from '../../config/types'

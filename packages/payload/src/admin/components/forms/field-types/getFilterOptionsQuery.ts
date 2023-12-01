@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { FilterOptions, FilterOptionsProps } from '../../../../fields/config/types'
 import type { Where } from '../../../../types'
 

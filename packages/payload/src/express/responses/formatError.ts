@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import APIError from '../../errors/APIError'
 
 export type ErrorResponse = { data?: any; errors: unknown[]; stack?: string }

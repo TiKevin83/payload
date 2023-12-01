@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import pino from 'pino'
 import prettifier from 'pino-pretty'
 

@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type i18next from 'i18next'
 
 import { useTranslation } from 'react-i18next'

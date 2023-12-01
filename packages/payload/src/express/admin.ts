@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Payload } from '../payload'
 
 async function initAdmin(ctx: Payload): Promise<void> {

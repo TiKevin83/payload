@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 export type Props = {
   isCurrent?: boolean
   isFirstPage?: boolean

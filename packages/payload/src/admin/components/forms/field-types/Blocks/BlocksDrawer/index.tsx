@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { i18n } from 'i18next'
 
 import { useModal } from '@faceless-ui/modal'

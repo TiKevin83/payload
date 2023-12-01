@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { FieldTypes } from '../exports/config'
 import type { Field } from '../fields/config/types'
 

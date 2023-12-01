@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { SanitizedCollectionConfig, TypeWithID } from '../collections/config/types'
 import type { PayloadRequest } from '../express/types'
 import type { SanitizedGlobalConfig } from '../globals/config/types'

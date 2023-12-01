@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Operator, Where } from '../../../../types'
 
 import { validOperators } from '../../../../types/constants'

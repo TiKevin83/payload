@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 /* eslint-disable no-nested-ternary */
 import fs from 'fs'
 import { printSchema } from 'graphql'

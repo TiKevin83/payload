@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Express, NextFunction, Response } from 'express'
 import type { Options as ExpressFileUploadOptions } from 'express-fileupload'
 import type GraphQL from 'graphql'

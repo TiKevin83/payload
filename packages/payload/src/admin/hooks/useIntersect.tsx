@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 /* eslint-disable no-shadow */
 import { useEffect, useRef, useState } from 'react'
 

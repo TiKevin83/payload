@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 /* eslint-disable no-param-reassign */
 import type { RichTextAdapter } from '../../../admin/components/forms/field-types/RichText/types'
 import type { SanitizedCollectionConfig } from '../../../collections/config/types'

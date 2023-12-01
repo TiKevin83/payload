@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { SanitizedCollectionConfig, TypeWithID } from '../collections/config/types'
 import type { FindOneArgs } from '../database/types'
 import type { Payload } from '../payload'

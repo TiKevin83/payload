@@ -28,9 +28,17 @@ const Autosave: React.FC<Props> = ({ id, collection, global, publishedDocUpdated
   const { i18n, t } = useTranslation('version')
 
   let interval = 800
-  if (collection?.versions.drafts && collection.versions?.drafts?.autosave)
+  if (
+    collection?.versions.drafts &&
+    collection.versions?.drafts?.autosave &&
+    collection.versions.drafts.autosave.interval
+  )
     interval = collection.versions.drafts.autosave.interval
-  if (global?.versions.drafts && global.versions?.drafts?.autosave)
+  if (
+    global?.versions.drafts &&
+    global.versions?.drafts?.autosave &&
+    global.versions.drafts.autosave.interval
+  )
     interval = global.versions.drafts.autosave.interval
 
   const [saving, setSaving] = useState(false)
@@ -52,7 +60,7 @@ const Autosave: React.FC<Props> = ({ id, collection, global, publishedDocUpdated
 
   const createCollectionDoc = useCallback(async () => {
     const res = await fetch(
-      `${serverURL}${api}/${collection.slug}?locale=${locale}&fallback-locale=null&depth=0&draft=true&autosave=true`,
+      `${serverURL}${api}/${collection?.slug}?locale=${locale}&fallback-locale=null&depth=0&draft=true&autosave=true`,
       {
         body: JSON.stringify({}),
         credentials: 'include',
@@ -66,7 +74,7 @@ const Autosave: React.FC<Props> = ({ id, collection, global, publishedDocUpdated
 
     if (res.status === 201) {
       const json = await res.json()
-      replace(`${admin}/collections/${collection.slug}/${json.doc.id}`, {
+      replace(`${admin}/collections/${collection?.slug}/${json.doc.id}`, {
         state: {
           data: json.doc,
         },
@@ -91,7 +99,7 @@ const Autosave: React.FC<Props> = ({ id, collection, global, publishedDocUpdated
       if (modified) {
         setSaving(true)
 
-        let url: string
+        let url: string | undefined
         let method: string
 
         if (collection && id) {
@@ -111,7 +119,9 @@ const Autosave: React.FC<Props> = ({ id, collection, global, publishedDocUpdated
                 ...reduceFieldsToValues(fieldRef.current, true),
                 _status: 'draft',
               }
-
+              if (!url) {
+                return
+              }
               const res = await fetch(url, {
                 body: JSON.stringify(body),
                 credentials: 'include',
@@ -124,7 +134,7 @@ const Autosave: React.FC<Props> = ({ id, collection, global, publishedDocUpdated
 
               if (res.status === 200) {
                 setLastSaved(new Date().getTime())
-                getVersions()
+                await getVersions()
               }
             }
 

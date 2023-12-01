@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { GeneratedTypes } from '../../../'
 import type { PayloadRequest } from '../../../express/types'
 import type { Payload } from '../../../payload'

@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { SanitizedCollectionConfig } from '../../../../../../collections/config/types'
 import type { FieldAffectingData, UIField } from '../../../../../../fields/config/types'
 

@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Action, State } from './types'
 
 export const defaultLoadingOverlayState = {

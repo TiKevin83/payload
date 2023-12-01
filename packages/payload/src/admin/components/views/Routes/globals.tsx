@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { match } from 'react-router-dom'
 
 import { lazy } from 'react'

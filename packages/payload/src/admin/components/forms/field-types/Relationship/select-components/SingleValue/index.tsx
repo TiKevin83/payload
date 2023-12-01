@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { SingleValueProps } from 'react-select'
 
 import React, { Fragment, useEffect, useState } from 'react'

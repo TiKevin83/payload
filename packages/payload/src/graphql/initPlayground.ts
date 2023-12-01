@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import graphQLPlayground from 'graphql-playground-middleware-express'
 
 import type { Payload } from '../payload'

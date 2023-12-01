@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 

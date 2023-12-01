@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Payload } from '../..'
 import type { FieldWithSubFields, TabsField } from '../../fields/config/types'
 

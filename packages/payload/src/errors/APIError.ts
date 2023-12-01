@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 /* eslint-disable max-classes-per-file */
 import httpStatus from 'http-status'
 

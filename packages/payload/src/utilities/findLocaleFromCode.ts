@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Locale, SanitizedLocalizationConfig } from '../config/types'
 /*
  return the Locale for given locale code, else return null

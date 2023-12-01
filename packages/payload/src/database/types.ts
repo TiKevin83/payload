@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { TypeWithID } from '../collections/config/types'
 import type { TypeWithID as GlobalsTypeWithID } from '../globals/config/types'
 import type { Payload } from '../payload'

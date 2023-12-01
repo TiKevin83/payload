@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import bodyParser from 'body-parser'
 import compression from 'compression'
 import express from 'express'

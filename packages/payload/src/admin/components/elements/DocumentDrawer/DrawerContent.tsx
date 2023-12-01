@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import { useModal } from '@faceless-ui/modal'
 import queryString from 'qs'
 import React, { useCallback, useEffect, useRef, useState } from 'react'

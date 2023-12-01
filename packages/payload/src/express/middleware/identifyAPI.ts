@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 const identifyAPI = (api) => {
   return (req, _, next) => {
     req.payloadAPI = api

@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 /* eslint-disable no-param-reassign */
 
 import type { Response } from 'express'

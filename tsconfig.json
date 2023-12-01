@@ -19,8 +19,12 @@
     "rootDir": "." /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */,
     "skipLibCheck": true /* Skip type checking of declaration files. */,
     "sourceMap": true,
-    "strict": false /* Enable all strict type-checking options. */,
-    "types": ["jest", "node", "@types/jest"]
+    "types": ["jest", "node", "@types/jest"],
+    "plugins": [
+      {
+        "name": "typescript-strict-plugin"
+      }
+    ]
   },
   "exclude": ["dist", "build", "temp", "node_modules"],
   /* Like tsconfig.build.json, but includes test directory and doesnt emit anything */

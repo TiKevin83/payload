@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { ControlProps } from 'react-select'
 
 import React from 'react'

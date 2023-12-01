@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { KeyboardEventHandler } from 'react'
 
 import { arrayMove } from '@dnd-kit/sortable'

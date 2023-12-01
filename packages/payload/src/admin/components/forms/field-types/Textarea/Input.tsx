@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { ChangeEvent } from 'react'
 
 import React from 'react'

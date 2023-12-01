@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import { fromFile } from 'file-type'
 import fs from 'fs'
 import path from 'path'

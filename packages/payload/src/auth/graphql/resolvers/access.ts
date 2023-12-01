@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Payload } from '../../../payload'
 
 import formatName from '../../../graphql/utilities/formatName'

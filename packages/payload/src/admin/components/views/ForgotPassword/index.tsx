@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import React, { useState } from 'react'
 import { Trans, useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'

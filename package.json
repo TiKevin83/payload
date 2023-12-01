@@ -98,6 +98,7 @@
     "tsx": "^3.13.0",
     "turbo": "^1.10.15",
     "typescript": "5.2.2",
+    "typescript-strict-plugin": "^2.2.1",
     "uuid": "^9.0.0"
   },
   "peerDependencies": {

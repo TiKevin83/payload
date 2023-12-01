@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Transporter } from 'nodemailer'
 import type { Logger } from 'pino'
 

@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { CSSProperties } from 'react'
 
 export type Props = {

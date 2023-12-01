@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Option } from '../../../elements/ReactSelect/types'
 import type { OptionGroup, Value } from './types'
 

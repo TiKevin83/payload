@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Response } from 'express'
 
 import httpStatus from 'http-status'

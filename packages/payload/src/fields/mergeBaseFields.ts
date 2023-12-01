@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import merge from 'deepmerge'
 
 import type { Field, FieldWithSubFields } from './config/types'

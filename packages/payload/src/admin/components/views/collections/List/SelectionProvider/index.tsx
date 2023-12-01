@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import queryString from 'qs'
 import React, { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react'
 import { useHistory } from 'react-router-dom'

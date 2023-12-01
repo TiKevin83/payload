@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 /* eslint-disable no-use-before-define */
 import type { GraphQLInputFieldConfig, GraphQLScalarType, GraphQLType } from 'graphql'
 

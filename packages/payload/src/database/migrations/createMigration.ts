@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 /* eslint-disable no-restricted-syntax, no-await-in-loop */
 import fs from 'fs'
 

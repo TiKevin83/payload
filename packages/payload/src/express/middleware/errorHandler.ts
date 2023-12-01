@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { NextFunction, Response } from 'express'
 import type { Logger } from 'pino'
 

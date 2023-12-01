@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import * as Locales from 'date-fns/locale'
 import React from 'react'
 import DatePicker, { registerLocale } from 'react-datepicker'

@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import jwt from 'jsonwebtoken'
 import url from 'url'
 

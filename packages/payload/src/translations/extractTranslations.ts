@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import translations from './index'
 
 export const extractTranslations = (keys: string[]): Record<string, Record<string, string>> => {

@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { TFunction } from 'react-i18next'
 
 import React from 'react'

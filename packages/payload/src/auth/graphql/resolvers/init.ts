@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import isolateTransactionID from '../../../utilities/isolateTransactionID'
 import init from '../../operations/init'
 

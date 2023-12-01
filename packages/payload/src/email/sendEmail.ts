@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { SendMailOptions } from 'nodemailer'
 
 export default async function sendEmail(message: SendMailOptions): Promise<unknown> {

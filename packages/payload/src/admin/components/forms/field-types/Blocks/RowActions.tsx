@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import { useModal } from '@faceless-ui/modal'
 import React from 'react'
 

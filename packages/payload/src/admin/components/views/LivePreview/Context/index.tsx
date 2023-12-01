@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import { DndContext } from '@dnd-kit/core'
 import React, { useCallback, useEffect, useState } from 'react'
 

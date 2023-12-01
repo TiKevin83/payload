@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { collectionViewType } from '../../../views/collections/Edit/Routes/CustomComponent'
 import type { DocumentTabConfig } from './types'
 

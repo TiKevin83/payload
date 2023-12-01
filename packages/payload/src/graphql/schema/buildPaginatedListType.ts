@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import { GraphQLBoolean, GraphQLInt, GraphQLList, GraphQLObjectType } from 'graphql'
 
 const buildPaginatedListType = (name, docType) =>

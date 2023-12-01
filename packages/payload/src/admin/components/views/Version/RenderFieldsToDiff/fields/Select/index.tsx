@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { i18n as Ii18n } from 'i18next'
 
 import React from 'react'

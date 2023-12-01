@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Payload } from '..'
 import type { Field } from '../fields/config/types'
 import type { PathToQuery } from './queryValidation/types'

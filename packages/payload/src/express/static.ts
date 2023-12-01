@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import express from 'express'
 import passport from 'passport'
 import path from 'path'

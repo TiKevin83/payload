@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { DeepPartial } from 'ts-essentials'
 
 import httpStatus from 'http-status'

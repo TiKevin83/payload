@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { TFunction } from 'i18next'
 
 import type { User } from '../../../../../auth'

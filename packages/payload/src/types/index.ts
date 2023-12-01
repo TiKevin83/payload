@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { TypeWithTimestamps } from '../collections/config/types'
 import type { validOperators } from './constants'
 

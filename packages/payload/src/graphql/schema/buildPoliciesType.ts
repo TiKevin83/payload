@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import { GraphQLBoolean, GraphQLNonNull, GraphQLObjectType } from 'graphql'
 import { GraphQLJSONObject } from 'graphql-type-json'
 

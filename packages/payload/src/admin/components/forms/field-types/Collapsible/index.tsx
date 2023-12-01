@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import React, { useCallback, useEffect, useState } from 'react'
 
 import type { DocumentPreferences } from '../../../../../preferences/types'

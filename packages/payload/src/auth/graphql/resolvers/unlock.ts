@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Collection } from '../../../collections/config/types'
 
 import isolateTransactionID from '../../../utilities/isolateTransactionID'

@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { ParsedArgs } from 'minimist'
 
 import minimist from 'minimist'

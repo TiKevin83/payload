@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import payload from '..'
 
 export const build = async (): Promise<void> => {

@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import ObjectID from 'bson-objectid'
 import equal from 'deep-equal'
 

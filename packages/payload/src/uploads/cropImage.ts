@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import sharp from 'sharp'
 
 export const percentToPixel = (value, dimension) => {

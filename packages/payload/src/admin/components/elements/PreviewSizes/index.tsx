@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import React, { useEffect, useMemo, useState } from 'react'
 
 import type { SanitizedCollectionConfig } from '../../../../exports/types'

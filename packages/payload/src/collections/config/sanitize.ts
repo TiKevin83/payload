@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import merge from 'deepmerge'
 import { isPlainObject } from 'is-plain-object'
 

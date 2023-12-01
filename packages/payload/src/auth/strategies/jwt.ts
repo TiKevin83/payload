@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { StrategyOptions } from 'passport-jwt'
 import type { Strategy as PassportStrategy } from 'passport-strategy'
 

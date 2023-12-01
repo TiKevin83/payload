@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { AccessResult } from '../../config/types'
 import type { PaginatedDocs } from '../../database/types'
 import type { PayloadRequest } from '../../express/types'

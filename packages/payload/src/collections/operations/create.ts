@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { MarkOptional } from 'ts-essentials'
 
 import crypto from 'crypto'

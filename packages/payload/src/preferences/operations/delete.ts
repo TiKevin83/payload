@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Document, Where } from '../../types'
 import type { PreferenceRequest } from '../types'
 

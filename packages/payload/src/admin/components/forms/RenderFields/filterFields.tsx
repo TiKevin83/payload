@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type React from 'react'
 
 import type { FieldPermissions } from '../../../../auth'

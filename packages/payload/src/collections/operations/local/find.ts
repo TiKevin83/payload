@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { GeneratedTypes } from '../../../'
 import type { PaginatedDocs } from '../../../database/types'
 import type { PayloadRequest, RequestContext } from '../../../express/types'

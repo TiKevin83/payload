@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Express, Router } from 'express'
 import type { ExecutionResult, GraphQLSchema, ValidationRule } from 'graphql'
 // @ts-expect-error // TODO Fix this - moduleResolution 16 breaks this import

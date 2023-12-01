@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { SanitizedCollectionConfig } from '../collections/config/types'
 import type { SanitizedGlobalConfig } from '../globals/config/types'
 import type { Payload } from '../payload'

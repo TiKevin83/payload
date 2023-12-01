@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Access, AccessResult } from '../config/types'
 
 import { Forbidden } from '../errors'

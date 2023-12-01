@@ -70,8 +70,8 @@ export const DocumentFields: React.FC<{
               fieldSchema={fields}
               fieldTypes={fieldTypes}
               filter={(field) =>
-                !field.admin.position ||
-                (field.admin.position && field.admin.position !== 'sidebar')
+                !field.admin?.position ||
+                !!(field.admin.position && field.admin.position !== 'sidebar')
               }
               permissions={permissions.fields}
               readOnly={!hasSavePermission}

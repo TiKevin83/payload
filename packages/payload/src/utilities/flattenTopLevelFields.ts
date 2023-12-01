@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Field, FieldAffectingData, FieldPresentationalOnly } from '../fields/config/types'
 
 import {

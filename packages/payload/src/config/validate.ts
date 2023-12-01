@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { ValidationResult } from 'joi'
 import type { Logger } from 'pino'
 

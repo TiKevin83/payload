@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 export default (localization: { locales: string[] }) =>
   (value: unknown): boolean =>
     typeof value === 'object' &&

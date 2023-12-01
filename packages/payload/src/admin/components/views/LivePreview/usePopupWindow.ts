@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import { useCallback, useEffect, useRef, useState } from 'react'
 
 import { useConfig } from '../../utilities/Config'

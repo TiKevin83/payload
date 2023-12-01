@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { PayloadRequest } from '../../express/types'
 import type { TypeWithVersion } from '../../versions/types'
 import type { SanitizedGlobalConfig } from '../config/types'

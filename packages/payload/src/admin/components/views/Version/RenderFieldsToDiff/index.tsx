@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { DiffMethod } from 'react-diff-viewer-continued'
 
 import React from 'react'

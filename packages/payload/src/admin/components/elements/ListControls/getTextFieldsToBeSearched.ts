@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Field, FieldAffectingData } from '../../../../fields/config/types'
 
 import { fieldAffectsData } from '../../../../fields/config/types'

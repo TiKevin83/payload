@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 /* eslint-disable no-param-reassign */
 import { GraphQLBoolean, GraphQLInt, GraphQLNonNull, GraphQLString } from 'graphql'
 import { singular } from 'pluralize'

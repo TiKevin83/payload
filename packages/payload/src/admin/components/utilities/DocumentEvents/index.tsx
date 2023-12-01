@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import React, { createContext, useContext, useState } from 'react'
 
 import type { UpdatedDocument } from './types'

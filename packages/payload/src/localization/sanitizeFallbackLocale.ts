@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 const sanitizeFallbackLocale = (fallbackLocale) => {
   if (
     fallbackLocale === 'null' ||

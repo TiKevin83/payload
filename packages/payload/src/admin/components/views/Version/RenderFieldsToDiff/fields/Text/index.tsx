@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import React from 'react'
 import ReactDiffViewer, { DiffMethod } from 'react-diff-viewer-continued'
 import { useTranslation } from 'react-i18next'

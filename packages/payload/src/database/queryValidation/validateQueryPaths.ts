@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 /* eslint-disable no-restricted-syntax */
 import type { SanitizedCollectionConfig } from '../../collections/config/types'
 import type { Field, FieldAffectingData } from '../../fields/config/types'

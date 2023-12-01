@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Where } from '../../../../types'
 import type { Action } from './types'
 

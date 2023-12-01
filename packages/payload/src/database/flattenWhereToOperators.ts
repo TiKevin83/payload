@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Where, WhereField } from '../types'
 
 // Take a where query and flatten it to all top-level operators

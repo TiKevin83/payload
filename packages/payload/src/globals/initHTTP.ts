@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import express from 'express'
 
 import type { Payload } from '../payload'

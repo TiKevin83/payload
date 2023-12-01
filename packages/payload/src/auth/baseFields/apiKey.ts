@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import crypto from 'crypto'
 
 import type { Field, FieldHook } from '../../fields/config/types'

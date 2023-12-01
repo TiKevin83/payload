@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { Action, Option, OptionGroup } from './types'
 
 import { getTranslation } from '../../../../../utilities/getTranslation'

@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import { useWindowInfo } from '@faceless-ui/window-info'
 import React, { Fragment } from 'react'
 import { useTranslation } from 'react-i18next'

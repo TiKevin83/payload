@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { CollectionPermission, GlobalPermission } from '../../../auth'
 import type { PayloadRequest } from '../../../express/types'
 import type { SanitizedGlobalConfig } from '../../config/types'

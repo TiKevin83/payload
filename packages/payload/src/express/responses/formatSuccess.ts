@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 const formatSuccessResponse = (incoming, type) => {
   switch (type) {
     case 'message':

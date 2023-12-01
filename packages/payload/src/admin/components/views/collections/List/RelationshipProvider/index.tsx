@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import querystring from 'qs'
 import React, { createContext, useCallback, useContext, useEffect, useReducer, useRef } from 'react'
 import { useTranslation } from 'react-i18next'

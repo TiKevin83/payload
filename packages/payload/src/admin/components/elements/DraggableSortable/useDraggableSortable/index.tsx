@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { UseDraggableArguments } from '@dnd-kit/core'
 
 import { useSortable } from '@dnd-kit/sortable'

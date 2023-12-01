@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import { format, formatDistanceToNow } from 'date-fns'
 import * as Locale from 'date-fns/locale'
 

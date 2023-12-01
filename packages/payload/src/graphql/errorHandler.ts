@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import type { GraphQLFormattedError } from 'graphql'
 
 import httpStatus from 'http-status'

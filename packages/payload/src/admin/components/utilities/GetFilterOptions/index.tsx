@@ -1,3 +1,4 @@
+// @ts-strict-ignore
 import equal from 'deep-equal'
 import { useEffect } from 'react'
 
